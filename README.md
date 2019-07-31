@@ -13,7 +13,7 @@ The parameter settings for the experiments is as below where DIM is the number o
 ```
 
 # Download URL
-You can download the data from the URL below.
+You can download the data from here.
 The structure of the files in the bucket is as follows:
 - README.me
   - A Readme file
@@ -25,7 +25,7 @@ The structure of the files in the bucket is as follows:
   - 300 dimensional word vectors
 
 # When using the data for your research
-When writing your paper using this data, please cite the following bibtex,
+When writing your paper using this data, please cite this bibtex,
 
 
     @misc{matsuno2019dependencybasedwordembeddings,  
