@@ -2,8 +2,11 @@
 This is a repository to publish Dependency-based Japanese Word Embeddings which we trained for experiments in the article "係り受けに基づく日本語単語埋込 (Dependency-based Japanese Word Embeddings)" ( Article URL https://ai-lab.lapras.com/nlp/japanese-word-embedding/).
 
 We applied the method proposed in the paper "Dependency-based Word Embeddings" to Japanese.
+
 To prepare the training data, we first extracted sentences from Japanese Wikipedia dumps.
+
 Then, we parsed them using an NLP framework "GiNZA".
+
 Finally, we trained the embeddings with the script by the first author of the paper.
 
 # Parameter Settings
