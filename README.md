@@ -1,13 +1,10 @@
 # Overview
 This is a repository to publish Dependency-based Japanese Word Embeddings which we trained for experiments in the article "係り受けに基づく日本語単語埋込 (Dependency-based Japanese Word Embeddings)" ( Article URL https://ai-lab.lapras.com/nlp/japanese-word-embedding/).
 
-We applied the method proposed in the paper "Dependency-based Word Embeddings" to Japanese.
-
-To prepare the training data, we first extracted sentences from Japanese Wikipedia dumps.
-
-Then, we parsed them using an NLP framework "GiNZA".
-
-Finally, we trained the embeddings with the script by the first author of the paper.
+We applied the method proposed in the paper "Dependency-based Word Embeddings" to Japanese.  
+To prepare the training data, we first extracted sentences from Japanese Wikipedia dumps.  
+Then, we parsed them using an NLP framework "GiNZA".  
+Finally, we trained the embeddings with the script by the first author of the paper.  
 
 # Parameter Settings
 The parameter settings for the experiments is as below where DIM is the number of dimensions written in each file name.
@@ -31,9 +28,9 @@ The structure of the files in the bucket is as follows:
 When writing your paper using this data, please cite the following bibtex,
 
 
-@misc{matsuno2019dependencybasedwordembeddings,
-    title  = {Dependency-based Word Embeddings},
-    author = {Tomoki, Matsuno},
-    url    = {https://github.com/lapras-inc/dependency-based-japanese-word-embeddings},
-    year   = {2019}
-}
+    @misc{matsuno2019dependencybasedwordembeddings,  
+        title  = {Dependency-based Word Embeddings},  
+        author = {Tomoki, Matsuno},  
+        url    = {https://github.com/lapras-inc/dependency-based-japanese-word-embeddings},  
+        year   = {2019}  
+    }  
