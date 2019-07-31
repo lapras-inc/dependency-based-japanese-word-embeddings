@@ -8,8 +8,9 @@ Finally, we trained the embeddings with the script by the first author of the pa
 
 # Parameter Settings
 The parameter settings for the experiments is as below where DIM is the number of dimensions written in each file name.
-
-
+```
+-size DIM -negative 15 -threads 20
+```
 
 # Download URL
 You can download the data from the URL below.
@@ -24,6 +25,12 @@ The structure of the files in the bucket is as follows:
   - 300 dimensional word vectors
 
 # When using the data for your research
-When writing your paper using this data, please cite this URL.
+When writing your paper using this data, please cite the following bibtex,
 
 
+@misc{matsuno2019dependencybasedwordembeddings,
+    title  = {Dependency-based Word Embeddings},
+    author = {Tomoki, Matsuno},
+    url    = {https://github.com/lapras-inc/dependency-based-japanese-word-embeddings},
+    year   = {2019}
+}
