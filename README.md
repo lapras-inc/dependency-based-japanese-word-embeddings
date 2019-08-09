@@ -3,11 +3,12 @@ This is a repository to share dependency-based japanese word embeddings which we
 
 We applied the method proposed in the paper [Dependency-based Word Embeddings](https://www.aclweb.org/anthology/P14-2050) to Japanese.  
 
+# Training Details
+
 To prepare the training data, we first extracted sentences from [Japanese Wikipedia dumps](https://dumps.wikimedia.org/jawiki/).  
 Then, we parsed them using an NLP framework [GiNZA](https://github.com/megagonlabs/ginza).  
 Finally, we trained the embeddings with the script provided in [the page of the paper's first author](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/).  
 
-# Parameter Settings
 The parameter settings for the experiments is as below where DIM is the number of dimensions written in each file name.
 ```
 -size DIM -negative 15 -threads 20
@@ -15,7 +16,7 @@ The parameter settings for the experiments is as below where DIM is the number o
 
 # Download URL
 You can download the data from here.
-The structure of the files in the bucket is as follows:
+The bucket contains these files:
 
 - dep-ja-100dim
   - 100 dimensional word vectors
@@ -24,8 +25,8 @@ The structure of the files in the bucket is as follows:
 - dep-ja-300dim
   - 300 dimensional word vectors
 
-# How to use the embeddings
-You can use the embeddings in the same way as the original implementation of Word2Vec.
+# How to Use the Embeddings
+You can use the embeddings in the same way as embeddings trained by using the original implementation of [Word2Vec](https://code.google.com/archive/p/word2vec/).
 
 Here is an example code to load them from your Python script.
 
@@ -34,13 +35,14 @@ from gensim.models import KeyedVectors
 vectors = KeyedVectors.load_word2vec_format("path/to/embeddings")
 ```
 
-# When using them for your research
+# When Using Them for Your Research
 When writing your paper using them, please cite this bibtex,
 
 
     @misc{matsuno2019dependencybasedwordembeddings,  
         title  = {Dependency-based Word Embeddings},  
         author = {Tomoki, Matsuno},  
+        affiliation = {LAPRAS inc.},
         url    = {https://github.com/lapras-inc/dependency-based-japanese-word-embeddings},  
         year   = {2019}  
     }  
