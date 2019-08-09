@@ -1,10 +1,11 @@
 # Overview
-This is a repository to publish Dependency-based Japanese Word Embeddings which we trained for experiments in the article "係り受けに基づく日本語単語埋込 (Dependency-based Japanese Word Embeddings)" ( Article URL https://ai-lab.lapras.com/nlp/japanese-word-embedding/).
+This is a repository to share dependency-based japanese word embeddings which we trained for experiments in the article [係り受けに基づく日本語単語埋込 (Dependency-based Japanese Word Embeddings)](https://ai-lab.lapras.com/nlp/japanese-word-embedding/).
 
-We applied the method proposed in the paper "Dependency-based Word Embeddings" to Japanese.  
-To prepare the training data, we first extracted sentences from Japanese Wikipedia dumps.  
-Then, we parsed them using an NLP framework "GiNZA".  
-Finally, we trained the embeddings with the script by the first author of the paper.  
+We applied the method proposed in the paper [Dependency-based Word Embeddings](https://www.aclweb.org/anthology/P14-2050) to Japanese.  
+
+To prepare the training data, we first extracted sentences from [Japanese Wikipedia dumps](https://dumps.wikimedia.org/jawiki/).  
+Then, we parsed them using an NLP framework [GiNZA](https://github.com/megagonlabs/ginza).  
+Finally, we trained the embeddings with the script provided in [the page of the paper's first author](https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/).  
 
 # Parameter Settings
 The parameter settings for the experiments is as below where DIM is the number of dimensions written in each file name.
@@ -15,8 +16,7 @@ The parameter settings for the experiments is as below where DIM is the number o
 # Download URL
 You can download the data from here.
 The structure of the files in the bucket is as follows:
-- README.me
-  - A Readme file
+
 - dep-ja-100dim
   - 100 dimensional word vectors
 - dep-ja-200dim
@@ -24,8 +24,18 @@ The structure of the files in the bucket is as follows:
 - dep-ja-300dim
   - 300 dimensional word vectors
 
-# When using the data for your research
-When writing your paper using this data, please cite this bibtex,
+# How to use the embeddings
+You can use the embeddings in the same way as the original implementation of Word2Vec.
+
+Here is an example code to load them from your Python script.
+
+```
+from gensim.models import KeyedVectors
+vectors = KeyedVectors.load_word2vec_format("path/to/embeddings", unicode_errors="ignore")
+```
+
+# When using them for your research
+When writing your paper using them, please cite this bibtex,
 
 
     @misc{matsuno2019dependencybasedwordembeddings,  
@@ -34,3 +44,8 @@ When writing your paper using this data, please cite this bibtex,
         url    = {https://github.com/lapras-inc/dependency-based-japanese-word-embeddings},  
         year   = {2019}  
     }  
+
+# References
+松田寛, 大村舞, 浅原正幸. 短単位品詞の用法曖昧性解決と依存関係ラベリングの同時学習, 言語処理学会 第 25 回年次大会 発表論文集, 2019.  
+Mikolov, T., Chen, K., Corrado, G. & Dean, J. (2013). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781, .  
+Levy, O. & Goldberg, Y. (2014). Dependency-Based Word Embeddings. Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) (p./pp. 302--308), June, Baltimore, Maryland: Association for Computational Linguistics.  
