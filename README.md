@@ -31,7 +31,7 @@ Here is an example code to load them from your Python script.
 
 ```
 from gensim.models import KeyedVectors
-vectors = KeyedVectors.load_word2vec_format("path/to/embeddings", unicode_errors="ignore")
+vectors = KeyedVectors.load_word2vec_format("path/to/embeddings")
 ```
 
 # When using them for your research
