@@ -40,7 +40,7 @@ When writing your paper using them, please cite this bibtex,
 
 
     @misc{matsuno2019dependencybasedwordembeddings,  
-        title  = {Dependency-based Word Embeddings},  
+        title  = {Dependency-based Japanese Word Embeddings},  
         author = {Tomoki, Matsuno},  
         affiliation = {LAPRAS inc.},
         url    = {https://github.com/lapras-inc/dependency-based-japanese-word-embeddings},  
