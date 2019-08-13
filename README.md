@@ -48,6 +48,6 @@ When writing your paper using them, please cite this bibtex,
     }  
 
 # References
-松田寛, 大村舞, 浅原正幸. 短単位品詞の用法曖昧性解決と依存関係ラベリングの同時学習, 言語処理学会 第 25 回年次大会 発表論文集, 2019.  
-Mikolov, T., Chen, K., Corrado, G. & Dean, J. (2013). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781, .  
-Levy, O. & Goldberg, Y. (2014). Dependency-Based Word Embeddings. Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) (p./pp. 302--308), June, Baltimore, Maryland: Association for Computational Linguistics.  
+- 松田寛, 大村舞, 浅原正幸. 短単位品詞の用法曖昧性解決と依存関係ラベリングの同時学習, 言語処理学会 第 25 回年次大会 発表論文集, 2019.  
+- Mikolov, T., Chen, K., Corrado, G. & Dean, J. (2013). Efficient estimation of word representations in vector space. arXiv preprint arXiv:1301.3781, .  
+- Levy, O. & Goldberg, Y. (2014). Dependency-Based Word Embeddings. Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers) (p./pp. 302--308), June, Baltimore, Maryland: Association for Computational Linguistics.  
