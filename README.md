@@ -39,7 +39,7 @@ vectors = KeyedVectors.load_word2vec_format("path/to/embeddings")
 When writing your paper using them, please cite this bibtex,
 
 
-    @misc{matsuno2019dependencybasedwordembeddings,  
+    @misc{matsuno2019dependencybasedjapanesewordembeddings,  
         title  = {Dependency-based Japanese Word Embeddings},  
         author = {Tomoki, Matsuno},  
         affiliation = {LAPRAS inc.},
