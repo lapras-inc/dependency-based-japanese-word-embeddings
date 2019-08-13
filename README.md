@@ -18,12 +18,13 @@ The parameter settings for the experiments is as below where DIM is the number o
 You can download the data from here.
 The bucket contains these files:
 
-- dep-ja-100dim
-  - 100 dimensional word vectors
-- dep-ja-200dim
-  - 200 dimensional word vectors
-- dep-ja-300dim
-  - 300 dimensional word vectors
+- Embeddings/
+  - dep-ja-100dim
+    - 100 dimensional word vectors
+  - dep-ja-200dim
+    - 200 dimensional word vectors
+  - dep-ja-300dim
+    - 300 dimensional word vectors
 
 # How to Use the Embeddings
 You can use the embeddings in the same way as embeddings trained by using the original implementation of [Word2Vec](https://code.google.com/archive/p/word2vec/).
