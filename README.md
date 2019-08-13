@@ -15,8 +15,8 @@ The parameter settings for the experiments is as below where DIM is the number o
 ```
 
 # Download URL
-You can download the data from links below.
-Download begins soon after you click on a link.
+You can download the data from links below.  
+Download begins **soon after you click on a link**.
 
 - [dep-ja-100dim](https://ailab-dependency-based-japanese-word-embeddings.s3-ap-northeast-1.amazonaws.com/Embeddings/dep-ja-100dim) (85.4 MB)
   - 100 dimensional word vectors
