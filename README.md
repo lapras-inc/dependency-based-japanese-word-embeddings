@@ -15,16 +15,15 @@ The parameter settings for the experiments is as below where DIM is the number o
 ```
 
 # Download URL
-You can download the data from here.
-The bucket contains these files:
+You can download the data from links below.
+Download begins soon after you click on a link.
 
-- Embeddings/
-  - dep-ja-100dim
-    - 100 dimensional word vectors
-  - dep-ja-200dim
-    - 200 dimensional word vectors
-  - dep-ja-300dim
-    - 300 dimensional word vectors
+- [dep-ja-100dim](https://ailab-dependency-based-japanese-word-embeddings.s3-ap-northeast-1.amazonaws.com/Embeddings/dep-ja-100dim) (85.4 MB)
+  - 100 dimensional word vectors
+- [dep-ja-200dim](https://ailab-dependency-based-japanese-word-embeddings.s3-ap-northeast-1.amazonaws.com/Embeddings/dep-ja-200dim) (169.9 MB)
+  - 200 dimensional word vectors
+- [dep-ja-300dim](https://ailab-dependency-based-japanese-word-embeddings.s3-ap-northeast-1.amazonaws.com/Embeddings/dep-ja-300dim) (254.5 MB)
+  - 300 dimensional word vectors
 
 # How to Use the Embeddings
 You can use the embeddings in the same way as embeddings trained by using the original implementation of [Word2Vec](https://code.google.com/archive/p/word2vec/).
