@@ -1,5 +1,5 @@
 # Overview
-This is a repository to share dependency-based japanese word embeddings which we trained for experiments in the article [係り受けに基づく日本語単語埋込 (Dependency-based Japanese Word Embeddings)](https://ai-lab.lapras.com/nlp/japanese-word-embedding/).
+This is a repository to share dependency-based Japanese word embeddings which we trained for experiments in the article [係り受けに基づく日本語単語埋込 (Dependency-based Japanese Word Embeddings)](https://ai-lab.lapras.com/nlp/japanese-word-embedding/).
 
 We applied the method proposed in the paper [Dependency-based Word Embeddings](https://www.aclweb.org/anthology/P14-2050) to Japanese.  
 
